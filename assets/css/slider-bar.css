@@ -1,0 +1,19 @@
+.slide-bar-section {
+    background-color: var(--primary-rad);
+    padding: 13px 0;
+}
+
+.slide-bar-section .slick-initialized .slick-slide {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    margin-left: 41px;
+}
+
+.slide-bar-section .slide-bar-item h4 {
+    font-family: var(--font-family-Inter);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+    color: var(--white);
+}

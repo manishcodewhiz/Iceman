@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url(../css/header.css);
+@import url(../css/hero-section.css);
+@import url(../css/slider-bar.css);
+@import url(../css/about-section.css);
+:root {
+    --font-family-rubik: "Rubik", sans-serif;
+    --font-family-Inter: "Inter", sans-serif;
+    --white: #ffffff;
+    --primary-rad: rgba(237, 28, 36, 1);
+    --primary-black: rgba(51, 51, 51, 1);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-family-rubik);
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+a{
+    text-decoration: none;
+}
+

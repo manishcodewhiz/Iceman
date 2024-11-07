@@ -1,0 +1,99 @@
+.hero-section {
+    padding-top: 185px;
+    padding-bottom: 80px;
+    background-image: url(../img/bg-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 48px;
+    backdrop-filter: blur(14px);
+    border-radius: 8px;
+    max-width: 537px;
+}
+
+.main-box .hero-text h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 61.62px;
+    color: var(--primary-black);
+    margin-bottom: 18px;
+}
+
+.main-box .hero-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    color: var(--primary-black);
+    margin-bottom: 34px;
+}
+
+.main-box .hero-text button {
+    border: none;
+    outline: none;
+}
+
+.main-box .hero-text .hero-btn {
+    font-family: var(--font-family-rubik);
+    display: block;
+    background-color: var(--primary-rad);
+    color: var(--white);
+    padding: 20px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .hero-section .main-box {
+        padding: 28px;
+    }
+
+    .hero-section .main-box .hero-text h1 {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 57.6px;
+        margin-bottom: 12px;
+    }
+
+    .hero-section .main-box .hero-text h4 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18.96px;
+        margin-bottom: 24px;
+    }
+
+    .hero-section .main-box .hero-text button {
+        width: 100%;
+    }
+
+    .hero-section .main-box .hero-text button .hero-btn {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-section {
+        padding-top: 60px;
+    }
+
+    .hero-section .main-box .hero-text h1 {
+        font-size: 38px;
+        line-height: 47px;
+    }
+
+    .hero-section .main-box .hero-text h4 {
+        margin-bottom: 20px;
+    }
+}
