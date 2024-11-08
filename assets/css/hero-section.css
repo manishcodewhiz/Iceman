@@ -45,8 +45,11 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 18.96px;
+    transition: .4s;
 }
-
+.main-box .hero-text .hero-btn:hover{
+    background-color: rgb(197 20 26);
+}
 @media (max-width: 480px) {
     .hero-section {
         padding-top: 80px;
